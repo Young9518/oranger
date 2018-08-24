@@ -1,0 +1,22 @@
+<view class='letter'>
+  <text class='txt'>Hello everyone:</text>
+  <text class='lineFirst'>我是PANDA的开发者Chengzi。</text>
+  <text class='lineFirst'>首先，欢迎大家来到这里，希望PANDA</text>
+  <text class='line'>能为大家提供一些力所能及的帮助，PANDA</text>
+  <text class='line'>的功能可见指南页面。</text>
+  <text class='lineFirst'>再者，这是我的第一个微信小程序，界</text>
+  <text class='line'>面和功能设计存在明显不足，期待大家帮忙</text>
+  <text class='line'>指出，给出自己的建议，我会进行积极的完</text>
+  <text class='line'>善，我的邮箱是：walkingsc@163.com.</text>
+  <text class='line'>谢谢大家！也希望大家能够喜欢PANDA.</text>
+  <text class='lineFirst'>最后，也是最重要的，我要感谢我的老</text>
+  <text class='line'>师，马丹老师。</text>
+  <text class='lineFirst'>感谢马老师在整个开发过程中耐心细</text>
+  <text class='line'>致的指导，非常感谢马老师，谢谢您！</text>
+  <text class='lineFirst'>再次向大家表示诚挚的感谢！</text>
+  <text class='lineFirst'>橙本布衣，今当上线，临表涕零。。。</text>
+</view>
+<view class='sign'>
+  <text class='lineFirst'>Chengzi</text>
+  <text class='lineFirst'>2018-08-21</text>
+</view>

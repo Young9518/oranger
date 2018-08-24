@@ -1,0 +1,29 @@
+<view class='box'>
+  <view class='first' wx:if="{{!signed}}">
+    <view class="section">
+        <view class='ncName'>Hi,{{userInfo.nickName}}</view>
+        <view class="picker">为自己取一个小名吧：</view>
+        <input placeholder="长度不超过6个字"  bindinput="bindNameInput" id="nickName" auto-focus/>
+    </view> 
+    <view class="section">
+        <view class="picker">再告诉我们，你的性别：</view>
+          <view class='sex'>
+            <input placeholder="男生/女生"  bindinput="bindSexInput" id="sex" auto-focus/>
+          </view>
+          <button bindtap="addUser"  type='primary'>注册昵称</button>
+    </view>
+  </view>
+  <view class='second' wx:else>
+    <image src='{{user.img}}'></image>
+    <view class='txt1'>Hi,亲爱的:</view>
+    <view class='txt2'>{{userInfo.nickName}}</view>
+    <view class='txt2'>在熊猫大家阔以叫你:</view>
+    <view class='txt2'>{{user.ncName}}，</view>
+    <view class='txt2'>你是我们的第{{user.id}}个伙伴.</view>
+    <view class='txt2'>欢迎你的加入~我的朋友！</view>
+    <view class='welcome'>
+      <view class='txt2'>Sincerely</view>
+      <view class='txt2'>小Panda.</view>
+    </view>
+  </view>
+</view>

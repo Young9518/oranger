@@ -1,0 +1,57 @@
+page{
+  font-size: 32rpx;
+}
+
+swiper,swiper image{
+  width: 100% 
+}
+.top{
+  width: 100%;
+  height: auto;
+  margin: 20rpx auto;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.tTitle{
+  margin-left: 15rpx;
+  margin-top: 15rpx;
+}
+.topTxt{
+  width: 43%;
+  margin-top: 30rpx;
+}
+.topTxt text{
+  display: block;
+}
+.topTxt image{
+  width: 100%;
+  height: 240rpx;
+}
+
+.list{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.lTxt{
+  width: 43%;
+  margin-top: 30rpx;
+}
+.lTxt text{
+  display: block;
+}
+.lTxt image{
+  width: 100%;
+  height: 240rpx;
+}
+.author{
+  margin-top: 15rpx;
+  margin-left: 15rpx;
+  padding-bottom: 10rpx;
+  color: #f60;
+  font-size: 28rpx;
+}
+

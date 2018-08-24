@@ -1,0 +1,29 @@
+page{
+  font-size: 36rpx;
+  color: #3c3c3c;
+}
+
+.title{
+  font-size: 60rpx;
+  margin-top: 30rpx;
+  margin-left: 40rpx;
+}
+.time{
+  font-size: 32rpx;
+  margin-top: 20rpx;
+  margin-left: 40rpx;
+  color: #b8b3b3;
+}
+.txt{
+  margin-top: 30rpx;
+  margin-left: 40rpx;
+}
+.btn{
+  margin-top: 50rpx;
+  display: flex;
+  justify-content: space-around;
+}
+button{
+  margin: 20rpx 30rpx;
+  width: 30%;
+}

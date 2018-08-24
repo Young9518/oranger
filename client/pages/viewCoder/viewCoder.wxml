@@ -1,0 +1,17 @@
+<view>
+      <view class='title'>{{coder.title}}</view>
+      <view class='time'>{{coder.date}} | {{coder.time}}</view>
+      <view class='txt'>行驶的里程为：{{coder.distance}}Km</view>
+      <view class='txt'>一共挣了：{{coder.income}}元</view>
+      <view class='txt'>一共加了：{{coder.fuel}}升油</view>
+      <view class='txt'>支付油费：{{coder.fuelBill}}元</view>
+      <view class='txt'>写下的备注：{{coder.other}}</view>
+      <view class='txt'>大致为您分析一下</view>
+      <view class='txt'>利润为：{{coder.income-coder.fuelBill}}RMB</view>
+      <view class='txt'>百公里耗油：{{coder.fuel/coder.distance}}L(升)</view>
+      <view class='btn'>
+        <button type='primary' bindtap='editCoder' data-id='{{coder.id}}'>修改记录</button>
+        <button type='primary' bindtap='deleteCoder' data-id='{{coder.id}}'>删除记录</button>
+      </view>
+</view>
+

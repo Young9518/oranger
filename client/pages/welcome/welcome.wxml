@@ -1,0 +1,24 @@
+<image src='/images/timg.jpg'></image>
+<view class='letter'>
+  <text class='txt'>哈喽哈喽:</text>
+  <text class='lineFirst'>我是PANDA。</text>
+  <text class='lineFirst'>你终于来啦~希望PANDA能够帮到你，</text>
+  <text class='line'>我会很努力哒！</text>
+  <text class='lineFirst'>第一，我今天一岁啦，啊不对，目前我</text>
+  <text class='line'>的主要功能是：</text>
+  <text class='lineFirst'>面向营运司机使用者，记录一天的营运</text>
+  <text class='line'>数据，包括营业额、支出、油耗、里程等，</text>
+  <text class='line'>同时会记录日期和时间。此外，我还可以帮</text>
+  <text class='line'>帮你计算一天的利润。</text>
+  <text class='lineFirst'>虽然我还小，会的东西不多，但我会努</text>
+  <text class='line'>力的学习，目前即将扩展功能，以面向范围</text>
+  <text class='line'>更广的用户，界面也将会得到优化。</text>
+  <text class='lineFirst'>敬请期待！</text>
+  <text class='lineFirst'>提醒：目前仅作学习交流用，重要数据</text>
+  <text class='line'>也请自己备份一下哟，等我“长大了”，</text>
+  <text class='line'>我的脑袋就会更好使啦</text>
+</view>
+<view class='sign'>
+  <text class='signLine'>Panda.</text>
+  <text class='lineFirst'>2018-08-21</text>
+</view>

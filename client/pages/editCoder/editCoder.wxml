@@ -1,0 +1,42 @@
+<view class="container">
+    <view class="addTxt">
+      <view class="addTitle">输入记录名称:</view>
+        <input placeholder="输入记录名称"  
+        bindinput="titleInput" 
+        id="title" 
+        class='inputTxt' 
+        auto-focus
+        value='{{coder.title}}'/>
+    </view>
+    <view class="section">
+        <view class="picker">当前选择日期: {{coder.date}}</view>
+    <picker mode="date" value="{{date}}" start="2018-08-10" 
+      end="2020-09-01" bindchange="bindDateChange">
+      <image src='/images/plus.png' mode='widthFix'></image>
+    </picker>
+    </view>
+    <view class="section">     
+        <view class="picker">当前选择时间: {{coder.time}}</view>
+        <picker mode="time" value="{{time}}" start="00:01" end="23:59" bindchange="bindTimeChange"><image src='/images/plus.png' mode='widthFix'></image></picker>
+    </view>
+    <view class="addTxt">
+      <view class="addTitle">当前输入里程:</view>
+        <input bindinput="distanceInput" id="distance" class='inputTxt' value='{{coder.distance}}' auto-focus placeholder="输入距离(KM)"/>
+    </view>
+    <view class="addTxt">
+      <view class="addTitle">当前输入油耗:</view>
+        <input value='{{coder.fuel}}'  bindinput="fuelInput" id="fuel" class='inputTxt' auto-focus placeholder="输入油耗(L)"/>
+    </view>
+    <view class="addTxt">
+      <view class="addTitle">当前输入油费:</view>
+        <input value='{{coder.fuelBill}}'  bindinput="fuelBillInput" id="fuelBill" class='inputTxt' auto-focus placeholder="输入油费(RMB)"/>
+    </view>
+    <view class="addTxt">
+      <view class="addTitle">当前输入收入:</view>
+        <input placeholder="输入收入(RMB)"  bindinput="incomeInput" id="income" class='inputTxt'  value='{{coder.income}}' auto-focus/>
+    </view>     
+        <textarea bindinput="bindTextAreaBlur"  placeholder="输入备注" class="textarea" value='{{coder.other}}'/>
+    <button bindtap="editCoder">确认修改</button>
+    
+</view>
+

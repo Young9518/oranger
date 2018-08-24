@@ -1,0 +1,41 @@
+page{
+  background-color: #f3f3f3
+}
+.box{
+  width: 100%;
+  height: auto;
+  margin: 0rpx;
+  font-size: 36rpx;
+  background-color: #fff;
+}
+.title{
+  width: 90%;
+  line-height: 50rpx;
+  margin: 0rpx 15rpx;
+  border-bottom: 2rpx solid #f3f3f3;
+  border-radius: 5%;
+}
+.title text{
+  margin: 20rpx;
+}
+.inpt{
+  width: 100%;
+  margin: 20rpx;
+}
+.txtarea{
+  width: 90%;
+  height: 200rpx;
+  margin: 30rpx;
+}
+.img{
+  width: 95%;
+  height: 100rpx;
+  padding: 30rpx 30rpx 40rpx 30rpx;
+}
+button{
+  margin-right: 20rpx;
+}
+.img image{
+  width: 100rpx;
+  height: 100rpx;
+}

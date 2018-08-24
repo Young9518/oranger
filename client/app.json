@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/addCgi/addCgi",
+    "pages/coderList/coderList",
+    "pages/user/user",
+    "pages/addCoder/addCoder",
+    "pages/viewCoder/viewCoder",
+    "pages/cache/cache",
+    "pages/setting/setting",
+    "pages/editCoder/editCoder",
+    "pages/essayWrite/essayWrite",
+    "pages/guide/guide",
+    "pages/welcome/welcome"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Hi,我是Panda",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index1.png",
+        "selectedIconPath": "images/index2.png"
+      },
+      {
+        "pagePath": "pages/coderList/coderList",
+        "text": "记录",
+        "iconPath": "images/course1.png",
+        "selectedIconPath": "images/course2.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我",
+        "iconPath": "images/user1.png",
+        "selectedIconPath": "images/user2.png"
+      }
+    ]
+  }
+}

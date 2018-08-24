@@ -1,0 +1,37 @@
+page{
+  font-size: 36rpx;
+}
+image{
+  width: 100%;
+  margin: 10rpx auto;
+}
+.letter{
+  display: flex;
+  flex-wrap: wrap;
+}
+.letter text{
+  width: 100%;
+  display: block;
+  margin: 15rpx 10rpx;
+  border-bottom: 2rpx solid #f1f1f1;
+}
+.lineFirst{
+  padding-left: 12%;
+}
+.line{
+  padding-left: 3%; 
+}
+
+.sign{
+  display: flex;
+  flex-wrap: wrap;
+}
+.sign text{
+  width: 100%;
+  display: block;
+  margin: 20rpx 10rpx;
+  border-bottom: 2rpx solid #f1f1f1;
+}
+.signLine{
+  padding-left: 12%;
+}

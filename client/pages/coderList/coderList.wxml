@@ -1,0 +1,20 @@
+<view class='listBox'wx:for='{{corders}}' wx:key='{{index}}'>
+  <view class='listTop'>
+    <view>{{item.title}}</view>
+      <navigator url='/pages/viewCoder/viewCoder?id={{item.id}}'>
+        <view class='more'></view>
+      </navigator>
+  </view>
+  <view class='listCenter'> {{item.date}}  {{item.time}}</view>
+  <view class='listDown'>
+    <view class='left'>
+      <text class='text1'>{{lcUser.ncName}}</text>
+      <image
+                class="userinfo-avatar"
+                src="{{lcUser.img}}"
+                mode='widthFix'
+            ></image>
+    </view>
+    <view class='right'>行驶{{item.distance}}Km</view>
+  </view>
+</view>

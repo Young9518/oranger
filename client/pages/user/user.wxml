@@ -1,0 +1,57 @@
+<view class="container">
+     <!-- 用户登录测试 -->
+    <view class="userinfo">
+        <view class='img'>
+        <image
+            class="userinfo-avatar"
+            src="{{logged ? userInfo.avatarUrl : './user-unlogin.png'}}"
+            mode='widthFix'
+        ></image>
+        </view>
+        <view class='msg'>
+            <button style="width:400rpx"
+                    class="userinfo-nickname section" 
+                    wx:if="{{!logged}}"
+                    open-type="getUserInfo" 
+                    bindgetuserinfo="bindGetUserInfo">点击登录</button>
+            <view wx:else>
+            <view><text   class="userinfo-nickname ">{{userInfo.nickName}}</text></view>
+            <view>
+              <text class='locNcName'>PANDA昵称：</text>
+              <text class='locNcName' wx:if="{{!signed}}">你还没取这里的昵称哟</text>
+              <text class='locNcName' wx:else>{{user.ncName}}</text>
+            </view>
+            </view>
+        </view>
+    </view>
+</view>
+<navigator url='/pages/addCoder/addCoder?id={{user.openId}}'>
+<view class='list2'>
+  <view class='left'>
+    <image src='/images/add.png' mode='widthFix'></image>
+  </view>
+  <view class='right'>
+    <view class='txt'>新增记录</view>
+  </view>
+</view>
+</navigator>
+<view class='list1' wx:for='{{interList}}' wx:key="{{index}}">
+  <view class='left'>
+    <image src='{{item.img}}' mode='widthFix'></image>
+  </view>
+  <navigator url='{{item.url}}'>
+  <view class='right'>
+    <view class='txt'>
+      <text>{{item.title}}</text>
+    </view>
+  </view>
+  </navigator>
+</view>
+<view class='list2'>
+  <view class='left'>
+    <image src='/images/setting.png' mode='widthFix'></image>
+  </view>
+  <view class='right'>
+    <navigator url='/pages/setting/setting'><view class='txt'>设置</view></navigator>
+  </view>
+</view>

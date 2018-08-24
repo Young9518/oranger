@@ -1,0 +1,30 @@
+<swiper 
+  indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" 
+  interval="{{interval}}" 
+  duration="{{duration}}"
+  circular="{{circular}}"
+  indicator-color='{{indicatorColor}}'
+  indicator-active-color="{{indicatorActiveColor}}">
+  <block wx:for="{{imgUrls}}" wx:key='index'>
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" />
+    </swiper-item>
+  </block>
+</swiper>
+<view class='top'>
+  <view class='topTxt' wx:for="{{topList}}" wx:key="{{index}}">
+     <navigator url='{{item.url}}'>
+      <image src='{{item.img}}' mode='Fix'></image>
+    </navigator> 
+    <text class='tTitle'>{{item.title}}</text>
+    <text class='author'>{{item.author}}</text>
+  </view>
+</view>
+<view class='list'>
+  <view class='lTxt' wx:for='{{list}}' wx:key="{{index}}">
+    <image src='{{item.img}}' mode='Fix'></image>
+    <text class='tTitle'>{{item.title}}</text>
+    <text class='author'>{{item.author}}</text>
+  </view>
+</view>

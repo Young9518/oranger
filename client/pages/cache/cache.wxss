@@ -1,0 +1,10 @@
+.box{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 200rpx;
+}
+.txt{
+  font-size: 50rpx;
+  margin: auto;
+}

@@ -1,0 +1,12 @@
+<view class='box'>
+  <view class='title'>
+    <text>在下面写个标题</text>
+    <input placeholder="输入短一点的标题" class='inpt'></input>
+  </view>
+  <view class='txt'>
+    <textarea bindinput="bindTextAreaBlur"  placeholder="输入正文" class="txtarea"/>
+  </view>
+  <view class='img'>
+    <button type='primary'>发布</button>
+  </view>
+</view>
